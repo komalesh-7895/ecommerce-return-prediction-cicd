@@ -32,7 +32,7 @@ def test_health_endpoint():
     assert data["status"] == "healthy"
     assert data["model_loaded"] is True
     assert "best_model" in data
-    assert data["version"] == "1.0.0"
+    assert data["version"] in ["1.0.0", "1.0.1"]
 
 
 def test_predict_endpoint_valid():

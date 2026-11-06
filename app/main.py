@@ -12,7 +12,7 @@ from app.schemas import HealthResponse, OrderPredictionInput, PredictionResponse
 app = FastAPI(
     title="E-Commerce Product Return Prediction API",
     description="Production-grade ML API to predict e-commerce product returns with CI/CD integration.",
-    version="1.0.0",
+    version="1.0.1",
 )
 
 # Enable CORS for cross-origin integration
