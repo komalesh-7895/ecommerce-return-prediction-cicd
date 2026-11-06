@@ -50,7 +50,7 @@ def health_check():
             status="healthy",
             model_loaded=True,
             best_model=model_name,
-            version="1.0.0",
+            version="1.0.1",
         )
     except Exception as e:
         raise HTTPException(
